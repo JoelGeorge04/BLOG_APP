@@ -1,7 +1,7 @@
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:padding="35px"
+    android:padding="45px"
     android:background="@drawable/backgrnd"
     android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BLOG APP"
+        android:text="BLOG-APP"
         android:gravity="center"
         android:textSize="75px"
         android:textColor="#000000"
