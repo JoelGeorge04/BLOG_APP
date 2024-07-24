@@ -10,11 +10,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="20px"
         android:text="BLOG-APP"
-        android:gravity="center"
-        android:textSize="75px"
         android:textColor="#000000"
-        android:layout_margin="10px"/>
+        android:gravity="center"
+        android:textSize="85px" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,6 +24,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:id="@+id/post"
         android:hint="Add your Post" />
     <TextView
@@ -36,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Add your Title"
+        android:textColor="@color/black"
         android:id="@+id/title" />
     <TextView
         android:layout_width="match_parent"
@@ -45,6 +47,7 @@
         android:layout_margin="10px"/>
     <EditText
         android:layout_width="match_parent"
+        android:textColor="@color/black"
         android:layout_height="wrap_content"
         android:hint="Add your Icon"
         android:id="@+id/icon" />
@@ -53,6 +56,7 @@
         android:layout_margin="20px"
         android:layout_height="wrap_content"
         android:background="#C7DADC"
+        android:textColor="@color/black"
         android:id="@+id/delete"
         android:text="Delete Post"/>
     <androidx.appcompat.widget.AppCompatButton
@@ -61,10 +65,12 @@
         android:layout_height="wrap_content"
         android:background="#C7DADC"
         android:id="@+id/search"
+        android:textColor="@color/black"
         android:text="Search Post"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_margin="20px"
+        android:textColor="@color/black"
         android:layout_height="wrap_content"
         android:background="#C7DADC"
         android:id="@+id/view"

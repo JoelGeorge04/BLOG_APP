@@ -9,8 +9,8 @@
     <ImageView
         android:layout_width="167dp"
         android:layout_height="164dp"
-        android:background="@drawable/abc" />
-
+        android:padding="20px"
+        android:background="@drawable/abc1"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,12 +29,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/uname"
+        android:textColor="@color/black"
         android:hint="Enter your name" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Password"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:layout_margin="10px"/>
     <EditText
         android:layout_width="match_parent"
